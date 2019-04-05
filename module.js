@@ -40,7 +40,7 @@ function put(){
   return http.put(url+'/1',post)
           .then(data=>console.log(data))
           .catch(err => console.log(`error:${err}`));
-}
+} 
 
 function patch(){
   console.log('-----更新数据patch,对象中为空的值不会更新到数据库中-----');
